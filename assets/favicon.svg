@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="二仙居 favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7B2D26"/>
+      <stop offset="1" stop-color="#A84732"/>
+    </linearGradient>
+  </defs>
+
+  <!-- rounded seal -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#bg)"/>
+
+  <!-- traditional roof silhouette -->
+  <path d="M12 25
+           C18 24, 22 21, 27 17
+           C29 15.5, 31 14, 32 12
+           C33 14, 35 15.5, 37 17
+           C42 21, 46 24, 52 25
+           C48 27, 43 27, 39 26
+           L25 26
+           C21 27, 16 27, 12 25Z"
+        fill="#F4E7C8"/>
+
+  <!-- eaves -->
+  <path d="M18 27.5 H46" stroke="#F4E7C8" stroke-width="3.2" stroke-linecap="round"/>
+
+  <!-- stylized Chinese character 二 -->
+  <path d="M21 35 H43
+           M17 46 H47"
+        fill="none"
+        stroke="#F4E7C8"
+        stroke-width="5"
+        stroke-linecap="round"/>
+
+  <!-- small center mark, evoking a historic gate plaque -->
+  <circle cx="32" cy="31" r="2.2" fill="#F4E7C8"/>
+</svg>
